@@ -1,0 +1,34 @@
+.countryContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContainer {
+  height: 200px;
+  width: 400px;
+  display: block;
+  margin-bottom: 10px;
+}
+.accordion {
+  width: 400px;
+  margin-top: 10px;
+}
+
+.backBtn {
+  color: rgb(55, 54, 54);
+  padding: 5px;
+  height: 35px;
+  border: none;
+  background: rgba(177, 177, 241, 0.466);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.linkStyle {
+  text-decoration: none;
+}
