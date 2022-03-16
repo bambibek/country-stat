@@ -1,0 +1,37 @@
+.tblBody {
+  clear: both;
+  width: 100%;
+}
+.tblBody img {
+  height: 50px;
+  width: 50px;
+}
+.tblContent {
+  height: 50px;
+}
+.tblContent td {
+  padding: 5px 5px 5px 0;
+  text-align: center;
+  border-bottom: 1px dashed rgba(53, 53, 53, 0.5);
+  width: auto;
+  /* text-overflow: wrap; */
+  /* width: 150px; */
+}
+
+.favBtn {
+  border: none;
+  background: none;
+}
+.favBtn :hover {
+  cursor: pointer;
+}
+
+.tblHead {
+  font-size: 25px;
+}
+.tblHead tr {
+  height: 40px;
+}
+.tblHead tr th {
+  padding: 10px;
+}
