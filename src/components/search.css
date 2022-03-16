@@ -1,0 +1,20 @@
+.searchDiv {
+  display: flex;
+}
+.iconBtn {
+  height: 70px;
+  border: none;
+  border-radius: 7px 0px 0px 7px;
+  background-color: white;
+  padding-left: 15px;
+}
+.searchInput {
+  height: 70px;
+  border-radius: 0px 7px 7px 0px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  font-size: x-large;
+  padding-left: 50px;
+  outline: none;
+}
