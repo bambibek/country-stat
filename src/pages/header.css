@@ -5,13 +5,14 @@
 .container {
   height: 70px;
   /* border-bottom-style: groove; */
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 10px 50px 10px 50px;
   /* background-color: transparent; */
   /* flex-direction: column; */
   /* border: 1px solid red; */
+  align-items: flex-end;
 }
 
 .navButtons {
@@ -25,25 +26,29 @@
   display: block;
   margin-right: 15px;
   cursor: pointer;
+  /* border: solid 1px green; */
 }
 nav {
   display: flex;
-  position: fixed;
+  /* border: solid 1px red; */
+  /* position: fixed; */
+  /* align-self: flex-end; */
   right: 5%;
+  float: right;
 }
 .h1content {
   font-size: 70px;
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   color: rgba(20, 18, 33, 0.851);
 }
 .h2content {
   font-size: 25px;
   text-align: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   color: rgba(9, 9, 45, 0.694);
 }
@@ -54,7 +59,7 @@ nav {
   margin-bottom: 50px;
   position: relative;
   /* background-image: url(./headerMedia/bg.jpg);
-    animation: animateMap 30s linear infinite; */
+  animation: animateMap 30s linear infinite; */
 }
 .globe {
   position: absolute;

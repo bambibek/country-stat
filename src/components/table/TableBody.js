@@ -23,6 +23,7 @@ const TableBody = (props) => {
     //dispatch(countFavourite(state.favouriteCountries.length));
   }
 
+  
   return (
     <>
       <tbody>

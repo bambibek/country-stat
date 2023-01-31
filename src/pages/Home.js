@@ -14,13 +14,30 @@ function Home() {
     // setUserValue(inputValue);
     setUserValue(inputValue);
   }
+  //   function sortValue(sortVal) {
+  //     setSortVal(sortVal);
+  //   }
+
+  //   function favouriteVal(favVal) {
+  //     // setFavVal(favVal);
+  //     setFavCount(!favVal && favCount > 0 ? favCount - 1 : favCount + 1);
+  //   }
+  //   function favBtnClick(favClickVal) {
+  //     // console.log("home fav click value =>", favClickVal);
+  //     setFavClick(favClickVal);
+  //   }
 
   return (
     <div>
       <Header />
       <Search captureValue={searchVal} />
       <DropdownSort />
-      <CountryTable userSearchValue={userValue} />
+      <CountryTable
+        userSearchValue={userValue}
+        // sortOption={sortVal}
+        // captureFavValue={favouriteVal}
+        // favouriteClick={favClick}
+      />
     </div>
   );
 }
